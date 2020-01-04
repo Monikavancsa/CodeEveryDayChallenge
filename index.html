@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BMI Festive</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="bulbs.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+  <ul class="lightrope">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  </ul>
+<div class="cover">
+
+
+
+  <h1>Festive Guilt Calculator</h1>
+  <div class="snowflakes">
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+  </div>
+
+  <h3>Let's calculate the amount of excessive calories you consumed over the festive season and find out the
+  required exercises in order to burn them! </h3>
+    <img  id="messageImage" src="">
+  <div class="container">
+
+    Your name <input type="text" id="name" >
+    <br>
+    You are
+    <br>
+    <input type="radio" name="gender" value="Lady"> Lady
+    <br>
+    <input type="radio" name="gender" value="Gentleman">Gentleman
+    <br>
+
+    <div class="consumedFoods">
+      <p>From the list below you can find the most popular romanian festive foods aaand drinks.
+      Also please fill in the approximate quantity,however, I know... It is hard to take consideration of the amount of theese goodies. </p>
+        <label for="foodlist">Please select</label>
+      <form action="/action_page.php" id="foodList">
+        <select id="list">
+          <option value="">--Please select from the list--</option>
+    <option value="sarmale">Sarmale</option>
+    <option value="cozonac">Cozonac cu mac sau nucă</option>
+    <option value="salata">Salată de Boef</option>
+    <option value="snitel">Șnițel</option>
+    <option value="racituri">Răcituri</option>
+    <option value="chiftelute">Chifteluțe</option>
+    <option value="vinete">Salată de vinete</option>
+    <option value="oua">Ouă umplute</option>
+      <option value="bere">Bere</option>
+        <option value="vin">Vin</option>
+          <option value="tarie">Tărie(țuică, vodcă, etc)</option>
+          <option value="sampanie">Șampanie</option>
+  </select>
+  quantity <input type="number" name="" value="">
+  <select id="measure">
+<option value="bucată">Peaces</option>
+<option value="grame">Grams</option>
+<option value="sticla">Bottle</option>
+<option value="grame">Glass</option>
+<option value="grame">ml</option>
+  </select>
+
+  <button type="button" class="removeFood">-</button>
+
+</form>
+
+    </div>
+<button type="button" class="addFood">+</button><br>
+    <button type="button" id="submit"> That's all. Let's calculate</button>
+
+  </div>
+
+  </div>
+  <script src="script.js"></script>
+  <script src="calculator.js"></script>
+
+</body>
+
+</html>
